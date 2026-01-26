@@ -1,12 +1,12 @@
 class Grafatui < Formula
   desc "A Grafana-like Terminal User Interface for Prometheus"
   homepage "https://github.com/fedexist/grafatui"
-  version "0.1.3"
+  version "0.1.4"
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/fedexist/grafatui/releases/download/v0.1.3/grafatui-x86_64-apple-darwin.tar.gz"
-      sha256 "REPLACE_WITH_SHA256"
+      url "https://github.com/fedexist/grafatui/releases/download/v0.1.4/grafatui-x86_64-apple-darwin.tar.gz"
+      sha256 "bdf75a4e8af3b2c3e4c49d3963cee622a46be2ad95f5102410cd63cd097e0d6a"
     elsif Hardware::CPU.arm?
       url "https://github.com/fedexist/grafatui/releases/download/v0.1.3/grafatui-aarch64-apple-darwin.tar.gz"
       sha256 "REPLACE_WITH_SHA256"
