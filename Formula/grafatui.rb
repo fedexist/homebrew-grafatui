@@ -1,23 +1,23 @@
 class Grafatui < Formula
   desc "A Grafana-like Terminal User Interface for Prometheus"
   homepage "https://github.com/fedexist/grafatui"
-  version "0.1.13"
+  version "0.1.14"
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/fedexist/grafatui/releases/download/v0.1.13/grafatui-x86_64-apple-darwin.tar.gz"
-      sha256 "a207cd6e6b2a7661d2567c617eaf1a5316a6aa9beb3ef9f73afccda25cd3f273"
+      url "https://github.com/fedexist/grafatui/releases/download/v0.1.14/grafatui-x86_64-apple-darwin.tar.gz"
+      sha256 "28eaaeadff2cd180821dd20737544d25ce5c7e3c07427d73fcea51d726cf2375"
     elsif Hardware::CPU.arm?
-      url "https://github.com/fedexist/grafatui/releases/download/v0.1.13/grafatui-aarch64-apple-darwin.tar.gz"
-      sha256 "e5d2a4dad5018ca6e327e5414328d3c96b90bf1c5d9afce746250377e813e19b"
+      url "https://github.com/fedexist/grafatui/releases/download/v0.1.14/grafatui-aarch64-apple-darwin.tar.gz"
+      sha256 "212cc1afeb45bc6e8062d6afd286f75a10f8222904c89a8635e3de2ddcf7e841"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/fedexist/grafatui/releases/download/v0.1.13/grafatui-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c2e504fec7c502b4c840f90863a60dd656458b6d42c6b479f1e7227e4d3b8abb"
+      url "https://github.com/fedexist/grafatui/releases/download/v0.1.14/grafatui-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3bdefe8f1c7f496d05ddd9fac41ff23710d7331437b38d9789a2a39d364d2a34"
     elsif Hardware::CPU.arm?
-      url "https://github.com/fedexist/grafatui/releases/download/v0.1.13/grafatui-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3f0085df78b953bb67dfac2012f7e9e3f98fe36db7d42e9004954dce4a2e2be6"
+      url "https://github.com/fedexist/grafatui/releases/download/v0.1.14/grafatui-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e5afe0d8c000011cda75f99a340fe6f64f2282b2500d6db4866a347e6b90a90f"
     end
   end
 
